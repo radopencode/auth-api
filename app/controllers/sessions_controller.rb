@@ -16,3 +16,7 @@ class SessionsController < ApplicationController
     end
   end
 end
+
+def show
+  user = User.find_by(id: user)
+end
